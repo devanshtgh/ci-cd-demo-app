@@ -4,7 +4,7 @@
 
 	<groupId>272b8df3-f718-42a2-804e-875ab4259c93</groupId>
 	<artifactId>ci-cd-demo-app</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.5</version>
 	<packaging>mule-application</packaging>
 
 	<name>ci-cd-demo-app</name>
@@ -49,6 +49,7 @@
 							</services>
 						</integrations>
 					</cloudhub2Deployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
